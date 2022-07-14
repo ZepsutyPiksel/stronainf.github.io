@@ -39,13 +39,21 @@ body {
 .main h4 {
 	text-align: center;
 }
-.zdj {
+.gal {
 	display: flex;
-	;
 }
-.zdj img {
-	flex: 25%;
+.kol {
+	flex: 33.33%;
 	padding: 5px;
-	width: 25%;
+}
+.gal img {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	width: 80%;
 	border-radius: 25px;
+	transition: transform .2s
+}
+.zdj:hover {
+	transform: scale(1.2);
 }
