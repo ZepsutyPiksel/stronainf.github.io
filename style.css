@@ -47,4 +47,5 @@ body {
 	flex: 25%;
 	padding: 5px;
 	width: 25%
+	border-radius: 25px;
 }
